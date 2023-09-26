@@ -23,7 +23,7 @@ if ENV:
     TOKEN = os.environ.get("TOKEN")
     WORKERS = int(os.environ.get("WORKERS", 8))
     TMDBAPI = os.environ.get("TMDBAPI")
-    DB_URI = os.environ.get("DBURL")
+    DB_URI = os.environ.get("DB_URL")
     GENIUS = os.environ.get("GENIUS")
     SPT_CLIENT_SECRET = os.environ.get("SPT_CLIENT_SECRET")
     SPT_CLIENT_ID = os.environ.get("SPT_CLIENT_ID")
